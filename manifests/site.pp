@@ -183,7 +183,6 @@ node default {
   include osx::global::disable_remote_control_ir_receiver
   include osx::finder::show_external_hard_drives_on_desktop
   include osx::finder::show_removable_media_on_desktop
-  include osx::finder::empty_trash_securely
   include osx::universal_access::ctrl_mod_zoom
   include osx::no_network_dsstores
   include osx::software_update
