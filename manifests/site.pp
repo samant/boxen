@@ -92,6 +92,11 @@ node default {
   include onepassword
   include mou
 
+  package { 'cocoa-rest-client':
+    provider   => 'appdmg',
+    source => 'https://github.com/mmattozzi/cocoa-rest-client/releases/download/1.3.6/CocoaRestClient-1.3.6.dmg',
+  }
+
   include dockutil
   dockutil::item { 'Add chrome':
     item     => "/Applications/Google Chrome.app",
